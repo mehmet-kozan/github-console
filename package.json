@@ -1,0 +1,37 @@
+{
+  "name": "github-console",
+  "version": "1.0.1",
+  "description": "GitHub console application.",
+  "main": "src/github.js",
+  "bin": {
+    "github": "src/github.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmet-kozan/github-console.git"
+  },
+  "keywords": [
+    "github",
+    "follower",
+    "following",
+    "cli",
+    "console",
+    "unfollow",
+    "rank"
+  ],
+  "author": "Mehmet Kozan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehmet-kozan/github-console/issues"
+  },
+  "homepage": "https://github.com/mehmet-kozan/github-console#readme",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "flat": "^5.0.2",
+    "octokit": "^1.7.1",
+    "stormdb": "^0.5.2"
+  }
+}
